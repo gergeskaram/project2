@@ -3,10 +3,14 @@ import 'package:flutter/material.dart';
 class HomeScreen extends StatelessWidget {
   static const String routeName = 'homescreen';
 
-  const HomeScreen({super.key});
+ HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('hhhhhhhhh'),
+      ),
+    );
   }
 }
