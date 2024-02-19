@@ -1,4 +1,5 @@
-import 'package:eslam_aaaaa/home_screen.dart';
+import 'package:eslam_aaaaa/home/home_screen.dart';
+import 'package:eslam_aaaaa/my_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,6 +17,6 @@ class MyApp extends StatelessWidget {
       routes: {
         HomeScreen.routeName: (context) => HomeScreen(),
       },
-    );
+        theme: Mytheme.lightMode);
   }
 }
